@@ -1,0 +1,65 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  
+  <servlet>
+  <servlet-name>sign</servlet-name>
+  <servlet-class>studentm2withhtml.controller.SignupServelt</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>sign</servlet-name>
+  <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>log</servlet-name>
+  <servlet-class>studentm2withhtml.controller.LoginServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>log</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>sel</servlet-name>
+  <servlet-class>studentm2withhtml.controller.SelectServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>sel</servlet-name>
+  <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>del</servlet-name>
+  <servlet-class>studentm2withhtml.controller.DeleteServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>del</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>upd</servlet-name>
+  <servlet-class>studentm2withhtml.controller.UpdateServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>upd</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
